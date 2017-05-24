@@ -24,7 +24,7 @@ componentDidMount(){
 
     return(
       <div className="">
-    <img className="hat" src={product.image} className="hat" alt={product.title} />
+    <img className="hat" src={product.image} alt={product.title} />
       <h1>{product.title}</h1>
       <h2>Price: ${product.price}</h2>
       <h3>{product.desc}</h3>

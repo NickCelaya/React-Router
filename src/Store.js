@@ -1,6 +1,6 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import './App.css';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import axios from "axios";
 
 class Store extends Component{
@@ -43,7 +43,10 @@ console.log(products);
     return  (
      <div className="">
        <h1>"Hi Nick this is the store page"</h1>
-       {products}
+        <Link to="/">
+        <div className="button">Home</div>
+        {products}
+       </Link>
      </div>
   )
  }
